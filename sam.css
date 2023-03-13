@@ -1,0 +1,11 @@
+:root { --accent: #e06c75; --bg: #1a1a1a; --bg2: #202020; }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body { height: 100%; width: 100%; background: #111111; font-family: 'Inter', sans-serif; }
+
+hr { border-color: var(--accent); border-width: .1px; margin-right: 15px; } p, h, h4, h5, h6, p1, p2, p3, p4, p5, p6 { color: white; } h, h1, h2, h3, h4, h5, h6 { font-wight: bold; } .center { text-align: center; } h, h1, h3, h2 { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: var(--accent); color: #111111; } h1, h { font-size: 45px; font-weight: bolder; } h2 { font-size: 35px; font-weight: bold; } h3 { font-size: 30px; } h4 { font-size: 25px; } h5 { font-size: 20px; } h6 { font-size: 17px; } p, p1, p2, p3, p4, p5, p6 { color: #abb2bf; } a { color: var(--accent); font-weight: bold; text-decoration: none; } a:hover { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: var(--accent); color: #111111; } code { background: var(--bg2); padding: 0.1rem 0.5rem; border-radius: 5px; color: var(--accent); display: inline; } pre { background: var(--bg2); padding: 0.1rem 0.5rem; border-radius: 5px; color: var(--accent); max-width: 100%; min-width: 100px; display: block; word-wrap: break-word; box-decoration-break: clone; max-width: 100%; min-width: 100px; } h2, h3, h4, h5, h6 { font-weight: bold; }
+
+button { background: var(--accent); color: var(--bg); text-decoration: none; padding: 0.5rem 2rem; border-radius: 5rem; font-size: 0.9rem; border-color: var(--accent); border-style: solid; border-width: 1px; font-weight: 300; } button:active, button:hover { background: var(--bg); border-color: var(--accent); border-style: solid; color: var(--accent); border-width: 1px; }
+
+section { padding: 2rem 4vw; background: var(--bg); border-radius: 3rem; width: 90%; p { margin: 0px; } }
